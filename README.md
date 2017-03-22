@@ -1,6 +1,4 @@
-# Example Drupal 8 Development Environment
-
-Example Drupal 8 development environment using Outrigger.
+# Pattern Lab 2 on Drupal 8, running on Outrigger
 
 ## Setup
 
@@ -39,6 +37,10 @@ The --rm portion of the comand ensures that containers are cleaned up after they
   - Database password: admin
   - Database host: db.d8.vm
 
+### 8. Copy custom theme into Drupal
+
+  - For now, we have to manually copy src/PL2-BEM to build/html/themes/custom/
+
 ## Working with the project
 
 ### 1. Running drush commands on the site
@@ -61,7 +63,7 @@ The --rm portion of the comand ensures that containers are cleaned up after they
 
 When you need to clone data that is in a private repo, you will need to pass your
 SSH private key into the container so that is can be used with git to clone your
-project.  
+project.
 
 To get your private key into the build container, volume mount your key into the container at `/root/.ssh/outrigger.key` and it will be processed accordingly.
 
