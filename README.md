@@ -2,7 +2,7 @@
 
 ## Setup
 
-Proceed through these steps from the examples/drupal8 directory:
+Proceed through these steps from the root of the repo:
 
 ### 1. Use the build container to run composer to fetch a copy of Drupal 8 and store it in `./build/html` with:
 
@@ -17,7 +17,7 @@ The --rm portion of the comand ensures that containers are cleaned up after they
 ### 3. Start a new terminal:
 
   - We leave the old terminal running `docker-compose up` so that we can see any log messages from within the containers.
-  - Be sure it has your Dev Tools environment configured. If not run `eval $(devtools config)`
+  - Be sure it has your Dev Tools environment configured. If not run `eval "$(rig config)"`
 
 ### 4. Ensure the installer has permissions to create the settings files and files directory with:
 
