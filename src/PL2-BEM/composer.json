@@ -1,0 +1,7 @@
+{
+    "require": {
+        "twig/extensions": "^1.4",
+        "mustache/mustache": "^2.11",
+        "pattern-lab/patternengine-mustache": "^2.1"
+    }
+}

@@ -1,0 +1,171 @@
+.box-thumbnail {
+	transition: transform 0.5s ease, opacity 0.5s ease;
+	position: relative;
+	width: calc(33.33333% - 2.5em);
+	margin: 2.5em 0 0 2.5em;
+	margin-top: 2em;
+
+	& > .box-thumbnail__link:hover {
+		color: #ffffff;
+	}
+
+	& + body.is-loading {
+		transform: scale(0.9);
+		opacity: 0;
+	}
+
+	@media screen and (max-width: 1280px) {
+		width: calc(33.33333% - 1.25em);
+		margin: 1.25em 0 0 1.25em;
+	}
+	@media screen and (max-width: 980px) {
+		width: calc(50% - 2.5em);
+		margin: 2.5em 0 0 2.5em;
+	}
+	@media screen and (max-width: 736px) {
+		width: calc(50% - 1.25em);
+		margin: 1.25em 0 0 1.25em;
+		.box-thumbnail__image-wrapper {
+			transform: scale(1.0);
+		}
+	}
+	@media screen and (max-width: 480px) {
+		width: 100%;
+		margin: 1.25em 0 0 0;
+	}
+
+	body:not(.is-touch) &:hover > .box-thumbnail__image-wrapper {
+	transform: scale(1.1);
+
+		&::before {
+			background-color: #333333;
+			opacity: 0.35;
+		}
+
+		&::after {
+			opacity: 0;
+		}
+	}
+	body:not(.is-touch) &:hover .box-thumbnail__content {
+		max-height: 15em;
+		opacity: 1;
+	}
+}
+
+
+.box-thumbnail__image-wrapper {
+	transition: transform 0.5s ease;
+	position: relative;
+	display: block;
+	width: 100%;
+	border-radius: 4px;
+	overflow: hidden;
+  margin: none;
+
+	&::before { //two colon is for rendering theme & but one colon is for behavior like hover , etc. Basically everythng is one colon except before and after.
+		pointer-events: none;
+		transition: background-color 0.5s ease, opacity 0.5s ease;
+		content: ''; //must for suedo
+		display: block; // must for suedo
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		opacity: 1.0;
+		z-index: 1;
+		opacity: 0.8;
+	}
+
+	&::after {
+		pointer-events: none;
+		transition: opacity 0.5s ease;
+		content: '';
+		display: block;
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: 100% 100%;
+		opacity: 0.25;
+		z-index: 2;
+	}
+
+}
+
+.box-thumbnail__image-wrapper:before {
+	.style1 > & {
+		background-color: #f2849e;
+	}
+	.style2 > & {
+		background-color: #7ecaf6;
+	}
+	.style3 > & {
+		background-color: #7bd0c1;
+	}
+	.style4 > & {
+		background-color: #c75b9b;
+	}
+	.style5 > & {
+		background-color: #ae85ca;
+	}
+	.style6 > & {
+		background-color: #8499e7;
+	}
+}
+
+.box-thumbnail__image-img  {
+	display: block;
+	width: 100%;
+}
+
+.box-thumbnail__link {
+	align-items: center;
+	justify-content: center;
+	transition: background-color 0.5s ease, transform 0.5s ease;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	padding: 1em;
+	border-radius: 4px;
+	border-bottom: 0;
+	color: #ffffff;
+	text-align: center;
+	text-decoration: none;
+	z-index: 3;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.box-thumbnail__content {
+	max-height: 15em;
+	opacity: 1;
+
+  .box-thumbnail__link > &  {
+	transition: max-height 0.5s ease, opacity 0.5s ease;
+	width: 100%;
+	max-height: 0;
+	line-height: 1.5;
+	margin-top: 0.35em;
+	opacity: 0;
+	margin-bottom: 0;
+	}
+}
+
+.box-thumbnail__content-text {
+	margin: 0;
+}
+
+.box-thumbnail__title {
+  margin: 0;
+}
+
+
+// @molecules/box-thumbnail stylesheet

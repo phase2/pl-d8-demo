@@ -1,5 +1,4 @@
-build/*
-!build/html/themes/custom/*
+build/
 
 npm-debug.log
 vendor

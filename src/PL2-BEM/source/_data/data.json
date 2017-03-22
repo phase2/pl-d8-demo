@@ -1,0 +1,142 @@
+{
+  "pageText": {
+    "title": "This is Phantom, a free, fully responsive site template designed by",
+    "designer": "HTML5 UP",
+    "designer_link": "http://html5up.net",
+    "description": "Etiam quis viverra lorem, in semper lorem. Sed nisl arcu euismod sit amet nisi euismod sed cursus arcu elementum ipsum arcu vivamus quis venenatis orci lorem ipsum et magna feugiat veroeros aliquam. Lorem ipsum dolor sit amet nullam dolore."
+  },
+  "themePath": "../../../..",
+  "pl": true,
+  "title": "Faker.words(2, true)",
+  "text": "Faker.words(3, true)",
+  "site_title": "Faker.words(2, true)",
+  "headline": {
+    "short": "Faker.words(3, true)",
+    "medium": "Faker.words(7, true)"
+  },
+  "excerpt": {
+    "short": "Faker.sentence",
+    "medium": "Faker.sentences(2, true)",
+    "long": "Faker.paragraph"
+  },
+  "description": "Faker.paragraphs(2, true)",
+  "url": "http://example.com",
+  "name": {
+    "titleMale": "Faker.title('male')",
+    "titleFemale": "Faker.title('female')",
+    "first": "Faker.firstName",
+    "middle": "Faker.firstName",
+    "last": "Faker.lastName"
+  },
+  "email": "Faker.email",
+  "username": "Faker.userName",
+  "year": {
+    "long": "Faker.year",
+    "short": "Faker.numberBetween(01, 99)"
+  },
+  "month": {
+    "long": "Faker.monthName",
+    "digit": "Faker.month"
+  },
+  "dayofweek": "Faker.dayOfWeek",
+  "day": "Faker.numberBetween(1, 30)",
+  "hour": {
+    "long": "Faker.numberBetween(1, 99)",
+    "short": "Faker.numberBetween(1, 9)",
+    "ampm": "Faker.amPm"
+  },
+  "minute": "Faker.numberBetween(1, 59)",
+  "seconds": "Faker.numberBetween(1, 59)",
+
+
+  "boxThumbnail": {
+    "class": "style1",
+    "img": "../../../../images/fpo_square.png",
+    "img_alt": "what a nice image",
+    "link": "www.google.com",
+    "title": "Magna",
+    "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+  },
+
+  "items": [
+    {
+      "class": "style1",
+      "image": "/images/images/images/pic02.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style2",
+      "image": "/images/images/images/pic03.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style3",
+      "image": "/images/images/images/pic04.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style4",
+      "image": "/images/images/images/pic05.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style6",
+      "image": "/images/images/images/pic06.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style2",
+      "image": "/images/images/images/pic07.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style3",
+      "image": "/images/images/images/pic08.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style1",
+      "image": "/images/images/images/pic09.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style5",
+      "image": "/images/images/images/pic10.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style6",
+      "image": "/images/images/images/pic11.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    },
+    {
+      "class": "style4",
+      "image": "/images/images/images/pic12.jpg",
+      "link": "www.google.com",
+      "title": "Magna",
+      "content": "Sed nisl arcu euismod sit amet nisi lorem etiam dolor veroeros et feugiat."
+    }
+  ]
+
+
+}

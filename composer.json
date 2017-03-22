@@ -13,7 +13,9 @@
     "cweagans/composer-patches": "~1.0",
     "drupal/lightning": "~2.2.0",
     "roave/security-advisories": "dev-master",
-    "drupal/components": "^1.0"
+    "drupal/components": "^1.0",
+    "drupal/devel": "^1.0@RC",
+    "drupal/twig_tweak": "^1.6"
   },
   "require-dev": {
     "behat/mink": "~1.7",

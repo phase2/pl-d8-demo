@@ -1,0 +1,15 @@
+<div class="box-thumbnail-grid">
+
+  {% for item in items %}
+    {% include "@molecules/box-thumbnail.twig" with {
+      boxThumbnail: {
+        class: item.class,
+        link: item.link,
+        title: item.title,
+        content: item.content,
+        img: item.image
+      }
+    } %}
+  {% endfor %}
+
+</div>

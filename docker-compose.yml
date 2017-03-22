@@ -13,6 +13,7 @@ services:
       DOCROOT: /var/www/build/html
       # Change some core container settings
       PHP_MAX_EXECUTION_TIME: 45
+      PHP_MEMORY_LIMIT: 768M
       # These enable debug/profiling support
       PHP_XDEBUG: "false"
       PHP_XHPROF: "false"

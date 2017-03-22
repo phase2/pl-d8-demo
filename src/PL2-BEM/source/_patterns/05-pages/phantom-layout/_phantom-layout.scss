@@ -1,0 +1,37 @@
+.inner__grid p {
+  margin: 0 0 2em 0 !important;
+}
+
+html, body, div, span, h1, header {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+h2, h3, h4, h5, h6 {
+	font-weight: 900;
+	line-height: 1.5;
+	margin: 0 0 2em 0;
+	text-transform: uppercase;
+	letter-spacing: 0.35em;
+}
+
+  h2 a, h3 a, h4 a, h5 a, h6 a {
+  	color: inherit;
+  }
+
+h2 {
+	font-size: 1.1em;
+}
+
+
+@media screen and (max-width: 980px) {
+
+	h1 br, h2 br, h3 br, h4 br, h5 br, h6 br {
+		display: none;
+	}
+
+}

@@ -1,0 +1,33 @@
+<body class>
+
+  <div id="wrapper">
+    <header id="header">
+      <div class="inner">
+
+        {% include "@atoms/logo-with-text.twig" %}
+        {% include "@atoms/nav-bar.twig" %}
+
+
+      </div>
+    </header>
+
+    <div id="main">
+      <div class="inner">
+
+        {% include "@templates/phantom-content.twig" %}
+        {% include "@organisms/box-thumbnail-grid.twig" %}
+
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="inner">
+
+        {% include "@atoms/contact.twig" %}
+        {% include "@atoms/social-media.twig" %}
+
+      </div>
+    </footer>
+
+  </div>  <!--end of wrapper -->
+</body>

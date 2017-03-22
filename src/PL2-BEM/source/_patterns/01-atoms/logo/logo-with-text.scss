@@ -1,0 +1,33 @@
+.top {
+  height: 72px;
+}
+
+.top__logo > * {
+
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 0.65em;
+  border-bottom: 0;
+  color: inherit;
+  font-weight: 900;
+  letter-spacing: 0.35em;
+  margin: 0 0 2.5em 0;
+  text-decoration: none;
+  text-transform: uppercase;
+
+}
+
+.top__logo-image img {
+  margin-right: 0.65em;
+  display: block;
+  width: 2em;
+  height: 2em;
+
+}
+
+
+.top__title {
+  vertical-align: middle;
+  display: inline-block;
+  margin-bottom: 40px !important;
+}

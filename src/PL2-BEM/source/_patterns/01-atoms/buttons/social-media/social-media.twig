@@ -1,0 +1,8 @@
+<section>
+	<h2 class="icons__h2">Follow</h2>
+	<ul class="icons">
+    {% for icon in icons %}
+			<li><a href="#" class=" icons__class {{ icon.class }}"><span class="label icon__name">{{  icon.name }}</span></a></li>
+    {% endfor %}
+	</ul>
+</section>
