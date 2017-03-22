@@ -1,0 +1,6 @@
+build/*
+!build/html/themes/custom/*
+
+npm-debug.log
+vendor
+console
